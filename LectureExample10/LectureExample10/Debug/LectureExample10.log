@@ -1,0 +1,32 @@
+﻿Build started 3/22/2016 1:09:05 PM.
+     1>Project "C:\Users\Matt\OneDrive\Documents\College\2015-2016\CSE 335\LectureExample10\LectureExample10\LectureExample10.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\binaryexpr.h(7): error C2011: 'BinaryExpr': 'class' type redefinition
+         c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\binaryexpr.h(7): note: see declaration of 'BinaryExpr'
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\subtract.h(9): error C2504: 'BinaryExpr': base class undefined
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\subtract.h(11): error C2614: 'Subtract': illegal member initialization: 'BinaryExpr' is not a base or member
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\subtract.h(14): error C3861: 'getLeftOperation': identifier not found
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\subtract.h(14): error C2227: left of '->compute' must point to class/struct/union/generic type
+         c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\subtract.h(14): note: type is 'unknown-type'
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\subtract.h(14): error C3861: 'getRightOperation': identifier not found
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(6): error C2504: 'BinaryExpr': base class undefined
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(8): error C2614: 'Multiply': illegal member initialization: 'BinaryExpr' is not a base or member
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(11): error C3861: 'getLeftOperation': identifier not found
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(11): error C2227: left of '->compute' must point to class/struct/union/generic type
+         c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(11): note: type is 'unknown-type'
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(11): error C3861: 'getRightOperation': identifier not found
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\divide.h(6): error C2504: 'BinaryExpr': base class undefined
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\divide.h(8): error C2614: 'Divide': illegal member initialization: 'BinaryExpr' is not a base or member
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\divide.h(11): error C3861: 'getLeftOperation': identifier not found
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\divide.h(11): error C2227: left of '->compute' must point to class/struct/union/generic type
+         c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\divide.h(11): note: type is 'unknown-type'
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\divide.h(11): error C3861: 'getRightOperation': identifier not found
+     1>c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(5): error C2011: 'Multiply': 'class' type redefinition
+         c:\users\matt\onedrive\documents\college\2015-2016\cse 335\lectureexample10\lectureexample10\multiply.h(5): note: see declaration of 'Multiply'
+     1>Done Building Project "C:\Users\Matt\OneDrive\Documents\College\2015-2016\CSE 335\LectureExample10\LectureExample10\LectureExample10.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.47
